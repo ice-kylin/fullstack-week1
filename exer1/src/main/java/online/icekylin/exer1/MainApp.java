@@ -14,7 +14,9 @@ public class MainApp extends Application {
 
         Scene scene = new Scene(fxmlLoader.load(), 640, 360);
 
-        stage.setTitle("Hello!");
+        stage.setTitle("First JavaFX App");
+        stage.setX(0.0);
+        stage.setY(0.0);
         stage.setScene(scene);
         stage.show();
     }

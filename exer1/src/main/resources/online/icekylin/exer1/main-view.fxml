@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="online.icekylin.exer1.MainController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.control.Label?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<GridPane
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="online.icekylin.exer1.MainController"
+        hgap="16.0"
+        vgap="16.0"
+        alignment="CENTER"
+>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="30.9"/>
+        <ColumnConstraints percentWidth="30.9"/>
+    </columnConstraints>
+
+    <Label
+            text="Please enter your name to win a prize!"
+            GridPane.rowIndex="0"
+            GridPane.columnSpan="2"
+            GridPane.columnIndex="0"
+            GridPane.halignment="CENTER"
+    />
+    <TextField
+            fx:id="nameField"
+            GridPane.rowIndex="1"
+            GridPane.columnSpan="2"
+            GridPane.columnIndex="0"
+    />
+    <Button
+            fx:id="submitButton"
+            text="Submit"
+            GridPane.rowIndex="2"
+            GridPane.columnIndex="0"
+            GridPane.halignment="CENTER"
+    />
+    <Button
+            fx:id="cancelButton"
+            text="Cancel"
+            GridPane.rowIndex="2"
+            GridPane.columnIndex="1"
+            GridPane.halignment="CENTER"
+    />
+</GridPane>
