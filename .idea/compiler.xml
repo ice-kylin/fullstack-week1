@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pizza" />
         <module name="Week1" />
         <module name="exer2" />
         <module name="exer1" />
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="exer1" target="17" />
       <module name="exer2" target="17" />
+      <module name="pizza" target="17" />
       <module name="Week1" target="17" />
     </bytecodeTargetLevel>
   </component>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Week1.iml" filepath="$PROJECT_DIR$/Week1.iml" />
       <module fileurl="file://$PROJECT_DIR$/exer1/exer1.iml" filepath="$PROJECT_DIR$/exer1/exer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/exer2/exer2.iml" filepath="$PROJECT_DIR$/exer2/exer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pizza/pizza.iml" filepath="$PROJECT_DIR$/pizza/pizza.iml" />
     </modules>
   </component>
 </project>
